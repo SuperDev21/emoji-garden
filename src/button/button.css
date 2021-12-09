@@ -1,0 +1,12 @@
+.btnContener{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btnAdd{
+    background-color:beige;
+    padding: 10px;
+    color:#323f32;
+    font-weight: bold;
+    border-radius: 6px;
+}

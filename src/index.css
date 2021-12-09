@@ -1,0 +1,12 @@
+body{
+  background-color: #323f32;
+}
+.titre{
+    text-align: center;
+    color: beige;
+}
+
+
+@media screen and (min-width: 900px) {
+   
+  }

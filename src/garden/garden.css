@@ -1,0 +1,27 @@
+.contener{
+  display: flex;
+  justify-content:space-around;
+}
+.titre{
+  text-align: center;
+  margin: 3%;
+}
+.gardenGrid {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(5, 4em);
+    grid-template-rows: repeat(5, 4em);
+    padding: 5px;
+  }
+  .cell {
+    background-color: #a4eea4;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btnContainerConposent{
+    display: block;
+  }
