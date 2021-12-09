@@ -69,7 +69,7 @@ class Garden extends React.Component{
          <div className='btnContainerConposent'>
             <div className="gardenGrid">
                 {this.state.garden.map((elem, index) =>{
-                    return <div className="cell" key={index} onClick={() => this.DeleteEntry(elem.id)}>{elem.emoji}</div>
+                    return <div className="cell" title='Delete' key={index} onClick={() => this.DeleteEntry(elem.id)}>{elem.emoji}</div>
                 })}
             </div> 
             <Button handelChange={this.updateGarden}/>
